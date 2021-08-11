@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #efefef;
+}
+
+.description {
+  font-size: smaller;
+  padding: 0rem 0.5rem;
+}
+
+.genreSelect {
+  cursor: pointer;
+  background: #cbd5e1;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  margin: 0.5rem;
+}
+
+.movies {
+  text-align: left;
+}
+
+.movies .movieList {
+  padding-inline-start: 0px;
+}
+
+.listItem {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  width: 70%;
+  margin: 1rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.movieName {
+  font-size: larger;
+}
+
+.movieRating {
+  font-size: smaller;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1e293b;
+}
