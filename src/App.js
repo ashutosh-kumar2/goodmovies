@@ -85,7 +85,13 @@ export default function App() {
 
       <footer>
         Created by{" "}
-        <a href="https://kumarashutosh.netlify.app">Ashutosh Kumar</a>
+        <a
+          href="https://kumarashutosh.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ashutosh Kumar
+        </a>
       </footer>
     </div>
   );
